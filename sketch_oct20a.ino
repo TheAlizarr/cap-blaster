@@ -6,9 +6,9 @@
  *************************************************************/
 
 // ---- Blynk Template Details ----
-#define BLYNK_TEMPLATE_ID "TMPL3511YtgXS"
-#define BLYNK_TEMPLATE_NAME "esps"
-#define BLYNK_AUTH_TOKEN "di1pJY_ArZEygWoMcfDi6sJSx7dyVrgr" // Replace with your Auth Token
+#define BLYNK_TEMPLATE_ID "temp-ID"
+#define BLYNK_TEMPLATE_NAME "temp-name"
+#define BLYNK_AUTH_TOKEN "Your-blynk-device-auth-token" // Replace with your Auth Token
 
 // ---- Library Includes ----
 #include <WiFi.h>
@@ -17,8 +17,8 @@
 #include <ESP32Servo.h>
 
 // ---- WiFi Credentials ----
-char ssid[] = "ACT Fibre Net";       // Replace with your WiFi SSID
-char pass[] = "22552288";   // Replace with your WiFi Password
+char ssid[] = "your-wifi-name";       // Replace with your WiFi SSID
+char pass[] = "your-wifi-passkey";   // Replace with your WiFi Password
 
 // ---- Hardware Pins ----
 #define SERVO_PIN  15   // GPIO pin connected to servo signal wire
